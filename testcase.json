@@ -1,0 +1,33 @@
+{
+  "testCase": {
+    "name": "NRX NewOrder Creation",
+    "curator": "ee2764",
+    "configuration": {
+      "screenshots": "on",
+      "host": "mcfl1g05.medco.com",
+      "port": "23"
+    },
+    "testSteps": [
+      {
+        "wait": {
+          "row": 23,
+          "column": 18,
+          "value": "logon",
+          "timeInMillis": 5
+        }
+      },
+      {
+        "input": {
+          "row": 23,
+          "column": 18,
+          "value": "b"
+        }
+      },
+      {
+        "input": {
+          "keyname": "ENTER"
+        }
+      }
+    ]
+  }
+}
